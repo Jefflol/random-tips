@@ -1,6 +1,7 @@
 # Random Tips and Code Snippets
 This is a collection of random tips and code snippets.
 
+&nbsp;
 ### `console.table()`
 Prints out the objects and their selected data in table form, in console.
 ```js

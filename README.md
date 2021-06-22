@@ -28,3 +28,11 @@ soup.find(lambda tag: tag.name == 'a' and 'edit' in tag.text)
 for element in soup.select('div[class*="listing-col-"]'):
     print(element.get_text())
 ```
+
+## Git
+
+### `git stash` & `git stash pop`
+* switching to another branch requires that you commit your work
+* `git stash` can be used to temporarily put away unfinished work
+* `git stash pop` to continue where you left off
+    * `git stash pop 2` for a specifc index

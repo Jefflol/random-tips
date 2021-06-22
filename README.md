@@ -22,3 +22,9 @@ getUsers()
 ```python
 soup.find(lambda tag: tag.name == 'a' and 'edit' in tag.text) 
 ```
+
+### Finding element based on an attribute containing a partial string
+```python
+for element in soup.select('div[class*="listing-col-"]'):
+    print(element.get_text())
+```
